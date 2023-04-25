@@ -1,9 +1,8 @@
-/*Makes content take up full height of screen*/
 html, body { 
-    height: 100%; 
+    height: 100%;
+    background-image: url(images/white-waves.png); 
 }
 
-/* Header including nav*/
 header{
     
     position: relative;
@@ -11,33 +10,97 @@ header{
     margin: auto;
 }
 
-/* Box around name portion of header*/
 .header{
-    display: inline-block;
-    background-color: blue;
-    width: 200px;
+    display: center;
+    background-color:#4aaaa5;
+    width: 1060px;
     position: relative;
     bottom:20px;
-    height: 68px;
+    height: 70px;
 }
 
-/* Name portion of logo */
 h1{
     background-color:#4aaaa5;
     color:#ffffff;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 20px;
-    width: 200px;
-    position: relative;
+    font-size: 30px;
+    width: 1060px;
+    position: absolute;
     text-align: center;
     display: inline-block;
     padding: 26px 0px;
 }
-
-/* Contatiner for Navigation links*/
-nav{
+.nav{
     display: inline-block;
     position: absolute;
     right:1px;
     top:20%;
+    float: right;
+    list-style-type:none;
+    padding: 4px 8px;
+}
+
+.nav:hover{
+    background-color: aquamarine;
+}
+
+ul{
+    display: inline-block;  
+}
+
+li{
+    float: left;
+    list-style-type:none;
+    font-size: 25px;
+}
+
+
+a{
+    text-decoration: none;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size:20px;
+    color:#1f1f1f;
+}
+
+p{
+    font-size:25px;
+}
+
+.vertical-line{
+    width: 0px;
+    height: 100%;
+    float: left; 
+    border: solid 1px #ffffff; 
+    margin: 0px 10px;
+    padding: 1px 0px;
+    margin-top: 2px;
+  }
+
+hr{
+    margin: 0;
+    border: solid 1px #cccccc;
+}
+
+section{
+    width: 750px;
+    display: inline-block;
+    border: 1px solid #dddddd;
+    margin:40px 0px;
+    padding: 0px 20px; 
+}
+
+.Whitebox{
+    background-color: white;
+    width: 750px;
+    display: inline-block;
+    border: 10px solid #ffffff;
+    margin:40px 0px;
+    padding: 0px 20px;
+}
+.profile-picture{
+    margin: 0px 0px 0px 40px;
+    float: right;
+    height: 30%;
+    width:20%;
+    
 }
