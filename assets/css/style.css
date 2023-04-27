@@ -82,33 +82,33 @@ section{
 .caption{
     color: #000000;
 }
-
+/* Main project size and alinement */
 .feature{
     width: 100%;
     height: 75%;
     margin: 0px 0px 0px 40px;
     float: right;
 }
-
+/* Secondary porject size and alinement */
 .mywork{
     width: 75%;
     height: 50%;
     margin: 0px 0px 0px 40px;
     float: left;
 }
-
+/* Alinement of main content */
 main{
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-
+/* Lining the word to the center of the page */
 .portfolio-content{
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-
+/* Alinement of the contact informatiion */
 footer{
     display: flex;
     justify-content: space-between;
