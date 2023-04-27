@@ -31,11 +31,6 @@ nav{
     align-items: center;
 }
     
-
-nav:hover{
-    background-color: aquamarine;
-}
-
 ul{
     display: inline-block;  
 }
@@ -116,5 +111,25 @@ section{
 main{
     display: flex;
     flex-direction: column;
+    align-items: center;
+}
 
+.portfolio-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+}
+.contact{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contact > *{
+    padding-right: 20px;
 }
