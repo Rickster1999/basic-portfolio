@@ -1,8 +1,10 @@
+/* Added a background image */
 html, body { 
     height: 100%;
     background-image: url(../images/white-waves.png); 
 }
 
+/* Added header color and alinement  */
 header{
     display: flex;
     width: 100%;
@@ -45,7 +47,7 @@ li{
 a{
     text-decoration: none;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    font-size:20px;
+    font-size:25px;
     color:#1f1f1f;
 }
 
@@ -63,35 +65,22 @@ p{
     margin-top: 2px;
   }
 
-hr{
-    margin: 0;
-    border: solid 1px #cccccc;
-}
-
 section{
     width: 750px;
     display: inline-block;
     margin:40px 0px;
     padding: 0px 20px; 
 }
-
-.whitebox{
-    background-color: white;
-    width: 750px;
-    display: inline-block;
-    border: 10px solid #ffffff;
-    margin:40px 0px;
-    padding: 0px 20px;
-}
+/* Changed the size of profile picture */
 .profile-picture{
     margin: 0px 0px 0px 40px;
     float: right;
-    height: 30%;
-    width:20%;
+    height: 40%;
+    width:30%;
     }
 
 .caption{
-    color: #4aaaa5;
+    color: #000000;
 }
 
 .feature{
